@@ -1,16 +1,26 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+
     background-image: linear-gradient(to right,black, red);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
     color: white;
     text-align: center;
 
 }
+header{
+    background-color: black;
+}
 main{
     margin: auto;
-    width: 400px;
+    margin-top: 10px;
+    padding-top: 10px;
+
+    width: 300px;
     background-color: rgb(43, 29, 29);
     border: 1px solid black;
     box-shadow: 10px 10px 10px black;
@@ -18,20 +28,17 @@ main{
     border-radius: 40px;
     padding: 15px;
 }
-
-p{
-    padding: 30px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 30px 40px;
-    height: 30px;
-    background-color: white;
-}
 #resultado{
-    font-size: 1.1em;
+    
+    font-size: 1.em;
     text-align: right;
     font-weight: bolder;
-    
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 24px;
+    height: 40px;
+    background-color: white;
 }
 table{
     margin: auto;
@@ -40,8 +47,8 @@ table{
 }
 
 .botao{
-    width: 80px;
-    height: 80px;
+    width: 55px;
+    height: 55px;
     padding: 3px;
     color: white;
     background-color: black;
@@ -54,7 +61,7 @@ table{
     color: black;
 }
 #zero{
-    width: 160px;
+    width: 110px;
 }
 #igual{
     height: 160px;
