@@ -1,2 +1,2 @@
 # Calculadora online
- https://fernandonizer.github.io/Calculadora-online/
+ https://calculadora-online-one.vercel.app/
